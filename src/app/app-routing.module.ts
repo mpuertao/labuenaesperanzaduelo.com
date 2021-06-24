@@ -7,14 +7,15 @@ import { TestimonialsComponent } from './pages/components/testimonials/testimoni
 import { ContactComponent } from './pages/components/contact/contact.component';
 import { AboutComponent } from './pages/components/about/about.component';
 import { VideoComponent } from './pages/components/video/video.component';
+import { BooksComponent } from './pages/components/books/books.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
   { path: 'gallery', component: GalleryComponent },
   { path: 'video', component: VideoComponent },
-  { path: 'testimonial', component: TestimonialsComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'books', component: BooksComponent },
   { path: 'about', component: AboutComponent },
 ];
 

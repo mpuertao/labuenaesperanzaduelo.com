@@ -12,6 +12,8 @@ import { GalleryComponent } from './pages/components/gallery/gallery.component';
 import { TestimonialsComponent } from './pages/components/testimonials/testimonials.component';
 import { ContactComponent } from './pages/components/contact/contact.component';
 import { VideoComponent } from './pages/components/video/video.component';
+import { BooksComponent } from './pages/components/books/books.component';
+import { DueloComponent } from './pages/components/duelo/duelo.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { VideoComponent } from './pages/components/video/video.component';
     GalleryComponent,
     TestimonialsComponent,
     ContactComponent,
-    VideoComponent
+    VideoComponent,
+    BooksComponent,
+    DueloComponent
   ],
   imports: [
     BrowserModule,
