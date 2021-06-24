@@ -706,6 +706,13 @@ textarea::-ms-input-placeholder
     color: #fff;
     border-radius: 5px;
 }
+.video-content video{
+	border: 2px solid white;
+    font-size: 35px;
+    padding: 15px 40px;
+    color: #fff;
+    border-radius: 5px;
+}
 .video-content h1{
 	font-size:30px;
 	font-family: 'latolight';
@@ -828,15 +835,15 @@ textarea::-ms-input-placeholder
 
 .testimonial-content{
 	margin-top:40px;
-  font-size: 15;
 }
 
 .item {
-	color:#4bcaff;
-
+	color:#191c21;
 }
+
 .item p{
 	text-align:left;
+  font-size: 17px;
 }
 .item h6{
 	text-align:right;
